@@ -43,3 +43,9 @@
     margin-right: 4px;
 
 }
+
+.card_body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
