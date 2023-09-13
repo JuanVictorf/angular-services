@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+.h1_class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    font-family: 'Segoe UI';
+    padding: 70px;
+}

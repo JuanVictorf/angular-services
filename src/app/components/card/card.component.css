@@ -1,23 +1,43 @@
 .card {
-    border: 1px solid black;
     width: 250px;
     height: 350px;
-
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
     background-color: #232323;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    transition: transform 0.2s ease-in-out;
+
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(to top, #232323, #404040);
+
+    padding: 10px;
+
+    /* Estilo para quando o cursor passar sobre o cartão */
+    &:hover {
+        transform: scale(1.05); /* Aumenta um pouco o tamanho no hover */
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Sombra mais pronunciada no hover */
+    }
+}
+
+.input_digita {
+    display: flex;
+    align-items: center;
 }
 
 .card_title {
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .card_title h3 {
     color: white;
-   
-}
+    text-transform: capitalize;
+}   
 
 .card_body {
     background-color: #616161;
@@ -49,3 +69,5 @@
     align-items: center;
     justify-content: center;
 }
+
+
